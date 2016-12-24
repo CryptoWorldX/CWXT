@@ -1,0 +1,9 @@
+Building cryptoworldxtoken
+
+See doc/readme-qt.rst for instructions on building cryptoworldxtoken QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of cryptoworldxtoken.
+
+See doc/build-*.txt for instructions on building cryptoworldxtokend,
+the intended-for-services, no-graphical-interface, reference
+implementation of cryptoworldxtoken.
