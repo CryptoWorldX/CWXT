@@ -1006,7 +1006,7 @@ int64_t GetProofOfWorkReward(int64_t nFees)
     {
         nSubsidy = 50000000 * COIN; //ICO
     }
-        else if(pindexBest->nHeight < 1001)
+        else if(pindexBest->nHeight < 100001)
     {
         nSubsidy = 0 * COIN;
     }
@@ -1023,12 +1023,12 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees, int nHeight)
 
     int64_t nSubsidy = 0 * COIN;
 
-    if(pindexBest->nHeight < 2101)
+    if(pindexBest->nHeight < 600001)
     {
         nSubsidy = 10 * COIN;
     }
 
-    else if(pindexBest->nHeight < 4101)
+    else if(pindexBest->nHeight > 600000)
     {
         nSubsidy = 0 * COIN; 
     }
